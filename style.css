@@ -1,0 +1,39 @@
+body{
+    font-family: "Roboto", "Helvetica";
+    font-size: 18px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: #E5E7EB;
+}
+
+
+.heading{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    gap: 200px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
