@@ -43,9 +43,11 @@ a{
 }
 
 .section-1,
-.section-2{
+.section-2,
+.section-3{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 24px;
     padding: 16px 0;
 }
@@ -56,6 +58,13 @@ a{
 
 .section-2{
     flex-direction: column;
+}
+
+.section-3{
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 60px;
 }
 
 .left-side,
@@ -113,4 +122,24 @@ button{
 .info{
     color: #1F2937;
     text-align: center;
+}
+
+.quote{
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+
+.author-box{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    justify-content: end;
+}
+.author{
+    padding: 0;
+    margin: 0;
+    font-weight: bolder;
 }
